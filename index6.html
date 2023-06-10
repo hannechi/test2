@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- <style>
+
+label {
+  color: blue;
+}
+label {
+  color: green;
+}
+</style>  -->
+
+<body>
+    <form method="post" autocomplete="off">
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name *:</label>
+            <input pattern="[A-Za-z]{4,}" title="votre nom doit contenir 8 caractères" type="text" id="fname"
+                name="fname" required><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" required><br><br>
+            <label for="pass">password:</label>
+            <input id="pass" type="password" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <label for="color">color:</label>
+            <input type="color" id="color" name="color"><br><br>
+            <p>Please select your favorite Web language:</p>
+              <input type="radio" id="html" checked name="webla" value="HTML">
+              <label for="html">HTML5</label><br>
+              <input type="radio" id="css" checked name="webla" value="CSS">
+              <label for="css">CSS</label><br>
+              <input type="radio" id="javascript" name="webla" value="JavaScript">
+              <label for="javascript">JavaScript</label>
+            <br><br>
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars" size="1">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+                <option value="golf7">golf7</option>
+            </select>
+            <br>
+            <br>
+            <hr>
+            <center>hello</center>
+            <hr>
+            <label for="cars">Choose type:</label>
+            <br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label><br><br>
+            <br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>

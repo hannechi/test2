@@ -1,0 +1,116 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#wrapper-div
+{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    min-height: 100px;
+    background-color: orange;
+    margin: auto;
+}
+#logo-nav-div
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+}
+#logo-div
+{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    background-color: red;
+    /* when using row */
+    /* verticale center */
+    align-items: center;
+    padding-left: 2%;
+}
+#nav-div
+{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    background-color: yellow;
+    /* when using row */
+    /* verticale center */
+    align-items: center;
+    padding-left: 2%; 
+}
+#header-banner-div
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100px;
+    background-color: lightgray;
+    margin-top: 10px;
+/* when using row  */
+     /* Horizentale center */
+    justify-content: center;
+    /* verticale center */
+    align-items: center; 
+}
+#intro-div
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 80px;
+    background-color: lightgray;
+    margin-top: 10px;
+/* when using row  */
+     /* Horizentale center */
+    justify-content: center;
+    /* verticale center */
+    align-items: center;    
+}
+#boxes-div
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 300px;
+    background-color: rgb(57, 131, 122);
+    margin-top: 10px;
+    /* kel 3ada hedhi ba3ed matkteb el box style */
+    justify-content: space-between;
+}
+.box
+{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 30%;
+    background-color: rgb(207, 24, 223);
+    /* when using row  */
+     /* Horizentale center */
+     justify-content: center;
+     /* verticale center */
+     align-items: center;   
+}
+#footer-div
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 50px;
+    background-color: lightcoral;
+    margin-top: 10px;
+     /* Horizentale center */
+     justify-content: center;
+     /* verticale center */
+     align-items: center; 
+}

@@ -1,0 +1,133 @@
+/* h1
+{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    text-align: center;
+    
+}
+
+form{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  } */
+#my1
+{
+   color: gold; 
+   margin-left: 50%;
+}
+body
+{
+    background-color: aquamarine;
+}
+#utf
+{
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.utf
+{
+    color: white;
+    /* width: 800px;
+    height: 50px; */
+    background-color: blue;
+}
+
+h2
+{
+    color: rgb(19, 6, 57);
+}
+.lien
+{
+    color: rgb(58, 142, 27);
+}
+main
+{
+    color: brown;
+}
+
+p
+{
+    font-size: 30px;
+    background-color: teal;
+    padding-top: 50px;
+    padding-left: 23px;
+    text-align: center;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    margin-top: 90px;
+    color: inherit;
+    /* color: black; */
+}
+/* parent and children side effect */
+section
+{
+    width: 400px;
+    color: white;
+}
+main section p
+{
+    font-weight: bolder;
+    font-style: italic;
+}
+/* tekhdem 3la toutes les p eli tahet section toul */
+section > p
+{
+    background-color: aqua;
+}
+
+h1{
+    font-size: 60px;
+    background-color: blanchedalmond;
+    text-align: center;
+    /* width: 1000px; */
+    height: 250px;
+}
+/* #footer
+{
+    background-color: blueviolet;
+}
+.exemple
+{
+    background-color: brown;
+}
+footer
+{
+    background-color: black;
+} */
+
+/* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } */
+/* fazet p.without_espace et p .without_espace */
+/* p.without_espace
+{
+    background-color: blueviolet;
+} */
+
+/* p#without_espace */
+
+/* wahda menhom zouz le */
+section p:first-child
+{
+    background-color: blue;
+}
+section p:last-child
+{
+    background-color: black;
+}
+.image:hover
+{
+    filter: invert();
+    transform: scale(3);
+}

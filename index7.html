@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <form autocomplete="off">
+        <fieldset>
+            <legend>S'inscrire</legend>
+            <label for="nom"> Nom :</label> 
+            <input type="text" name="nom" id="nom" placeholder="Saisir votre nom" value="foulen" required pattern="[A-Za-z]{4,}" title="saisir votre nom qui doit contenir au minimum 4 caractères">
+            <br>
+            <br>
+            <label for="prenom"> Prénom :</label> 
+            <input type="text" name="prenom" id="prenom"  placeholder="Saisir votre prenom"  required pattern="[A-Za-z]{6,}"title="saisir votre prenom qui doit contenir au minimum 6 caractères">
+            <br>
+            <br>
+            <label for="tel"> Tem :</label> 
+            <input type="number" name="tel" id="tel" required pattern="[0-9]]{8}" title="saisir votre numéro qui doit contenir 8 chiffres">
+            <br>
+            <br>
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color">
+            <br>
+            <br>
+            <label for="password"> Password :</label>
+            <input type="password" name="password" id="password">
+            <br>
+            <br>
+            <label for="email"> Email :</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+</body>
+</html>

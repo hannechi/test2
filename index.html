@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>First project</title>
+  <link rel="icon" type="image/x-icon" href="./images/facebook.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="./css/style.css" />
+  <meta charset="UTF-8">
+</head>
+
+&nbsp;
+
+<body>
+  <header>
+    <ul>
+      <li>
+        <a href="#">header</a>  </li>
+       <li> <a href="#ull">main</a></li>
+       <li><a href="#footer">footer</a></li>
+    </ul>
+  </header>
+  <main>
+    <h1>html elements is boxes model</h1>
+  <h1 class="utf">UTF-8 هو الترميز العالمي الأكثر شيوعا على الانترنت</h1>
+  <h1 id="my1">My 1 Heading</h1>
+  <h2>My 2 Heading</h2>
+  <h3>My 3 Heading</h3>
+  <h4>This is heading 4</h4>
+  <h5>This is heading 5</h5>
+  <h6>This is heading 6</h6>
+  <p id="utf">My first paragraph.</p>
+  <h2 title="I'm a header">The title Attribute ?</h2>
+  <!-- <p class="lien" title="I'm a tooltip">Mouse over this paragraphé, to display the title attribute as a tooltip.</p> -->
+  <a class="lien" href="https://www.youtube.com/watch?v=Grt3uqPo9HU&ab_channel=JelllySenpaaai">Visit our HTML
+    tutorial</a>
+  <br>
+  <!-- helloo -->
+  <br>
+  <!-- Write your comments here -->
+  <img class="image"
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/250px-Image_created_with_a_mobile_phone.png"
+    width="500" height="600">
+<!-- To understand box model -->
+  <section>
+    <h1>What is HTML 5 </h1>
+    <!-- multiple classes -->
+  <p class="exemple1 exemple2">
+    HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and
+    final[3] major HTML version that is a World Wide Web Consortium (W3C) recommendation. The current specification is
+    known as the HTML Living Standard. It is maintained by the Web Hypertext Application Technology Working Group
+    (WHATWG), a consortium of the major browser vendors (Apple, Google, Mozilla, and Microsoft).
+  </p>
+  <div>
+  <p class="without_espace">
+    HTML5 was first released in a public-facing form on 22 January 2008,[2] with a major update and "W3C Recommendation"
+    status in October 2014.[4][5] Its goals were to improve the language with support for the latest multimedia and
+    other new features; to keep the language both easily readable by humans and consistently understood by computers and
+    devices such as web browsers, parsers, etc., without XHTML's rigidity; and to remain backward-compatible with older
+    software. HTML5 is intended to subsume not only HTML 4 but also XHTML 1 and DOM Level 2 HTML.[6]
+  </p>
+</div>
+</section>
+<!-- end -->
+  <h2 id="ull">An Unordered HTML List</h2>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+
+  <h2>An Ordered HTML List</h2>
+
+  <ol>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+
+  <h2>An Ordered HTML List</h2>
+
+  <ol>
+    <li> YOU NEED TO : <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+    </li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+
+
+
+  <h2>TH elements define table headers</h2>
+
+  <table border="1">
+    <tr>
+      <th>Person 1</th>
+      <th>Person 2</th>
+      <th>Person 3</th>
+    </tr>
+    <tr>
+      <td>Emil</td>
+      <td>Tobias</td>
+      <td>Linus</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>14</td>
+      <td>10</td>
+    </tr>
+  </table>
+
+  <p>To understand the example better, we have added borders to the table.</p>
+
+  <video width="400" controls>
+    <source src="./video/video.mp4" type="video/mp4">
+    Your browser does not support HTML video.
+  </video>
+
+
+  <form> <label for="username">Username <i>(letters and numbers only, no punctuation or special
+        characters)</i></label><br> <input name="username" id="username" required pattern="[A-Za-z0-9]+"> </form>
+
+
+  <p>
+    <label>Veuillez saisir votre numéro de téléphone au format (123)456-7890
+      (<input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size="2" />)-
+      <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit prefix" size="2" /> -
+      <input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3" />
+    </label>
+  </p>
+
+  <form>
+    <div>
+      <label for="uname">Veuillez choisir un nom d'utilisateur : </label>
+      <input type="text" id="uname" name="name" required size="45" pattern="[a-z]{4,8}"
+        title="4 à 8 lettres en minuscules">
+      <span class="validity"></span>
+      <p>Les noms d'utilisateurs doivent être en minuscules et contenir 4 à 8 caractères.</p>
+    </div>
+    <div>
+      <button>Envoyer</button>
+    </div>
+  </form>
+  <form action="/action_page.php">
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd" pattern=".{8,}" title="Eight or more characters">
+    <input type="submit">
+  </form>
+  <form action="/action_page.php">
+    <fieldset>
+      <legend>Personalia:</legend>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday"><br><br>
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+</main>
+<footer class="exemple" id="footer">
+  copyright c chiheb hannechi
+</footer>
+<a href="./1.html">1html</a>
+</body>
+
+</html>

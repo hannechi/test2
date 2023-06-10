@@ -1,0 +1,38 @@
+/* .div1
+{
+    background-color: red;
+    padding: 60px;
+    height: 100px;
+    width: 100;
+    border: 30px solid purple;
+    margin: 100px;
+}
+.div2
+{
+    background-color: blue;
+    padding: 10px;
+    height: 100px;
+    width: 100;
+    border: 30px solid brown;
+    margin: 100px; 
+} */
+
+#div1
+{
+
+    padding: 120px;
+    height: 100px;
+    width: 100;
+
+    
+}
+#div2
+{
+
+    padding-left: 60px;
+    padding-right:60px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    height: 100px;
+    width: 100;
+}

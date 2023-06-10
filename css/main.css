@@ -1,0 +1,23 @@
+
+/* p
+{
+    font-size: larger;
+}
+#para
+{
+    color: chocolate;
+}
+
+.para
+{
+color: yellow;
+}
+p
+{
+   color: blue; 
+} */
+
+section p:first-child
+{
+color: rgb(7, 254, 40);
+}
